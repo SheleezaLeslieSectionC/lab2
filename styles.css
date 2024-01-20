@@ -1,0 +1,102 @@
+/****** BASE ******/
+
+header,
+.background,
+.flex-child,
+.footer {
+    padding: 1rem;
+}
+
+.background,
+.interests,
+.goals,
+.footer {
+    border-radius: 8px;
+    border: 1px solid #06333a;
+}
+
+html,
+body,
+nav ul {
+    padding: 0;
+}
+
+html,
+body,
+h1,
+h2,
+nav ul {
+    margin: 0;
+}
+
+/****** FLEX ******/
+
+.flex {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+    justify-content: center;
+}
+
+.flex-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/****** COLOURS ******/
+
+body {
+    background: rgb(65, 115, 122);
+}
+
+.section-color {
+    background-color: rgb(183, 165, 136);
+}
+
+body {
+    color: #06333a;
+}
+
+header, a{
+    color: #fff;
+}
+
+/****** HEADER ******/
+
+header {
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid;
+    margin: 0 !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    list-style-type: none;
+}
+
+/****** MAIN ******/
+
+.background {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/****** FOOTER ******/
+
+.email,
+.stuff {
+    text-align: left;
+    width: 100%;
+}
+
+.footer {
+    flex-direction: column;
+    align-items: center;
+}
